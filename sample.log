@@ -1,0 +1,22 @@
+Dec 10 10:01:12 server1 sshd[1234]: Accepted publickey for user admin from 192.168.1.50 port 54321
+Dec 10 10:02:45 server1 webapp[555]: INFO User logged in successfully IP: 192.168.1.100
+Dec 10 10:05:01 server1 sshd[1235]: Failed password for root from 10.0.0.15 port 44444 ssh2
+Dec 10 10:05:05 server1 sshd[1236]: Failed password for root from 10.0.0.15 port 44445 ssh2
+Dec 10 10:05:10 server1 sshd[1237]: Failed password for root from 10.0.0.15 port 44446 ssh2
+Dec 10 10:05:15 server1 sshd[1238]: Failed password for root from 10.0.0.15 port 44447 ssh2
+Dec 10 10:05:20 server1 sshd[1239]: Failed password for root from 10.0.0.15 port 44448 ssh2
+Dec 10 10:05:25 server1 sshd[1240]: Failed password for root from 10.0.0.15 port 44449 ssh2
+Dec 10 10:10:00 server1 nginx[888]: 192.168.1.200 - - [10/Dec/2026:10:10:00 +0000] "GET / HTTP/1.1" 200 1024
+Dec 10 10:10:01 server1 nginx[888]: 192.168.1.200 - - [10/Dec/2026:10:10:01 +0000] "GET /about HTTP/1.1" 200 512
+Dec 10 10:10:02 server1 nginx[888]: 192.168.1.200 - - [10/Dec/2026:10:10:02 +0000] "GET /contact HTTP/1.1" 200 256
+Dec 10 10:10:03 server1 nginx[888]: 192.168.1.200 - - [10/Dec/2026:10:10:03 +0000] "GET /images/logo.png HTTP/1.1" 404 128
+Dec 10 10:11:00 server1 myapp[999]: ERROR Database connection timeout for IP 10.5.5.5
+Dec 10 10:11:05 server1 myapp[999]: WARNING High memory usage detected
+Dec 10 10:12:00 server1 myapp[999]: CRITICAL Service crash. Restarting.
+Dec 10 10:15:00 server1 nginx[888]: 192.168.1.200 - - [10/Dec/2026:10:15:00 +0000] "GET /api/data HTTP/1.1" 500 0
+Dec 10 10:15:01 server1 nginx[888]: 192.168.1.200 - - [10/Dec/2026:10:15:01 +0000] "GET /api/data HTTP/1.1" 500 0
+Dec 10 10:15:02 server1 nginx[888]: 192.168.1.200 - - [10/Dec/2026:10:15:02 +0000] "GET /api/data HTTP/1.1" 500 0
+Dec 10 10:15:03 server1 nginx[888]: 192.168.1.200 - - [10/Dec/2026:10:15:03 +0000] "GET /api/data HTTP/1.1" 500 0
+Dec 10 10:15:04 server1 nginx[888]: 192.168.1.200 - - [10/Dec/2026:10:15:04 +0000] "GET /api/data HTTP/1.1" 500 0
+Dec 10 10:15:05 server1 nginx[888]: 192.168.1.200 - - [10/Dec/2026:10:15:05 +0000] "GET /api/data HTTP/1.1" 500 0
+Dec 10 10:15:06 server1 nginx[888]: 192.168.1.200 - - [10/Dec/2026:10:15:06 +0000] "GET /api/data HTTP/1.1" 500 0
